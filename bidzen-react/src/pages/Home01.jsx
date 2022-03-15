@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../components/header/Header';
 import Slider01 from '../components/slider/Slider01';
 import dataSlider from '../assets/fake-data/dataSlider';
@@ -14,19 +14,48 @@ import Category from '../components/layouts/home/Category';
 import dataCategory from '../assets/fake-data/dataCategory'
 import Footer from '../components/footer/Footer';
 import { Newsletters } from '../components/layouts/home/Newsletters';
+import { Navbar } from 'react-bootstrap';
+
+
+
 
 const Home01 = () => {
+
+  const [characters, setCharacters] = useState([]);
+
+  const initialUrl = "https://rickandmortyapi.com/api/character";
+
+  const fetchCharacters = (url) => {
+
+    //here we bring the API object to the page 
+    fetch(url)
+      .then(response => response.json())
+      .then(data => setCharacters(data.results))
+      .catch(error => console.log(error))
+
+  };
+
+
+  useEffect(() => {
+    fetchCharacters(initialUrl);
+
+  }, [])
+
+
   return <div className='home-1'>
-      <Header />
-      <Slider01 data={dataSlider} />
-      <LiveAution data={dataLiveAution} />
-      <LatestCollections data={dataCollections} />
-      <BestSeller data={dataBestSeller} />
-      <TrendingCollections data={dataTrendingCollections} />
-      <Category data={dataCategory} />
-      <Newsletters />
-      <Footer />
+    <Header />
+    <Navbar />
+    <Slider01 data={dataSlider} />
+    <LiveAution data={dataLiveAution} />
+    <LatestCollections data={dataCollections} />
+    <BestSeller data={dataBestSeller} />
+    <TrendingCollections data={dataTrendingCollections} />
+    <Category data={dataCategory} />
+    <Newsletters />
+    <Footer />
   </div>;
 };
 
 export default Home01;
+
+
