@@ -15,6 +15,9 @@ import dataCategory from '../assets/fake-data/dataCategory'
 import Footer from '../components/footer/Footer';
 import { Newsletters } from '../components/layouts/home/Newsletters';
 import { Navbar } from 'react-bootstrap';
+import { Characters } from './Characters';
+import { Navbar1 } from './Navbar1';
+
 
 
 
@@ -43,16 +46,21 @@ const Home01 = () => {
 
 
   return <div className='home-1'>
+    <div className='container'>
+      <Characters Characters={characters} />
+
+
+    </div>
     <Header />
-    <Navbar />
-    <Slider01 data={dataSlider} />
+    <Navbar1 />
+    {/* <Slider01 data={dataSlider} />
     <LiveAution data={dataLiveAution} />
     <LatestCollections data={dataCollections} />
     <BestSeller data={dataBestSeller} />
     <TrendingCollections data={dataTrendingCollections} />
     <Category data={dataCategory} />
     <Newsletters />
-    <Footer />
+    <Footer /> */}
   </div>;
 };
 
