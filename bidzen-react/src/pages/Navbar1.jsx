@@ -1,14 +1,21 @@
-import React from 'react'
+import React from 'react';
+import Characters from './Characters.js';
 
 
 
-export const Navbar1 = () => {
 
-  
+function Navbar1() {
+
+
   return (
     <>
-      
+      <div>
+        <Characters />
+      </div>
 
     </>
   )
 }
+
+
+export default Navbar1

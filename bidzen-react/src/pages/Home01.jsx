@@ -16,7 +16,7 @@ import Footer from '../components/footer/Footer';
 import { Newsletters } from '../components/layouts/home/Newsletters';
 import { Navbar } from 'react-bootstrap';
 import { Characters } from './Characters';
-import { Navbar1 } from './Navbar1';
+import  Navbar1  from './Navbar1';
 
 
 

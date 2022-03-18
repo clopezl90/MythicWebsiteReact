@@ -17,3 +17,5 @@ export const Characters = ({ characters = [] }) => {
         </div>
     )
 }
+
+export default Characters   
