@@ -1,7 +1,7 @@
-import img1 from '../images/product-item/item-1.jpg'
-import img2 from '../images/product-item/item-2.jpg'
-import img3 from '../images/product-item/item-3.jpg'
-import img4 from '../images/product-item/item-4.jpg'
+import img1 from '../images/product-item/Amon-Ra Card.png'
+import img2 from '../images/product-item/Anubus Card.png'
+import img3 from '../images/product-item/Aphrodite.png'
+import img4 from '../images/product-item/Arthur Card.png'
 import imga1 from '../images/avatar/avt-7.jpg'
 import imga2 from '../images/avatar/avt-13.jpg'
 import imga3 from '../images/avatar/avt-14.jpg'
@@ -10,7 +10,7 @@ import imga4 from '../images/avatar/avt-15.jpg'
 const dataLiveAution = [
     {
         img: img1,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Amon-Ra',
         tags: 'BSC',
         imgAuthor: imga1,
         name:'Daniel M.Bivens',
@@ -19,7 +19,7 @@ const dataLiveAution = [
     },
     {
         img: img2,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Anubus Card',
         tags: 'BSC',
         imgAuthor: imga2,
         name:'Daniel M.Bivens',
@@ -28,7 +28,7 @@ const dataLiveAution = [
     },
     {
         img: img3,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Aphrodite',
         tags: 'BSC',
         imgAuthor: imga3,
         name:'Daniel M.Bivens',
@@ -37,7 +37,7 @@ const dataLiveAution = [
     },
     {
         img: img4,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Arthur Card',
         tags: 'BSC',
         imgAuthor: imga4,
         name:'Daniel M.Bivens',
