@@ -46,7 +46,7 @@ const dataLiveAution = [
     },
     {
         img: img1,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Amon-Ra',
         tags: 'BSC',
         imgAuthor: imga1,
         name:'Daniel M.Bivens',
@@ -55,7 +55,7 @@ const dataLiveAution = [
     },
     {
         img: img2,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Anubus Card',
         tags: 'BSC',
         imgAuthor: imga2,
         name:'Daniel M.Bivens',
@@ -64,7 +64,7 @@ const dataLiveAution = [
     },
     {
         img: img3,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Aphrodite',
         tags: 'BSC',
         imgAuthor: imga3,
         name:'Daniel M.Bivens',
@@ -73,7 +73,7 @@ const dataLiveAution = [
     },
     {
         img: img4,
-        title: '3D Space Rocket With Smoke Premium',
+        title: 'Arthur Card',
         tags: 'BSC',
         imgAuthor: imga4,
         name:'Daniel M.Bivens',

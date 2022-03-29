@@ -21,12 +21,12 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Explore 01',
+                sub: 'Cards',
                 links: '/explore-01'
             },
             {
                 id: 2,
-                sub: 'Explore 02',
+                sub: 'Gems',
                 links: '/explore-02'
             },
             {
@@ -53,12 +53,12 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Blog',
+                sub: 'My Cards',
                 links: '/blog'
             },
             {
                 id: 2,
-                sub: 'Blog Details',
+                sub: 'Cards Store',
                 links: '/blog-details'
             },
         ],
@@ -69,12 +69,12 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Authors',
+                sub: 'My Gems',
                 links: '/authors'
             },
             {
                 id: 2,
-                sub: 'Wallet Connect',
+                sub: 'Gems packages ',
                 links: '/connect-wallet'
             },
             {
