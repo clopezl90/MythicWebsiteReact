@@ -2437,7 +2437,7 @@ blockquote .author::before {
     height: 100%;
     top: 0;
     left: 0;
-    background: url('../images/background/bg-slider.png') center center no-repeat;
+    background: url('../images/background/background01.png') ;
     z-index: -1;
 }
 
@@ -2453,11 +2453,11 @@ blockquote .author::before {
 }
 .slider  .slider-item .overlay {
     position: absolute;
-    width: 100%;
+    width: 150%;
     height: 100%;
     top: 0;
     left: 0;
-    background: url('../images/background/bg-slider.png') center center no-repeat;
+    background: url('../images/background/background01.png')  ;
     z-index: -1;
 }
 
@@ -2904,6 +2904,7 @@ blockquote .author::before {
 ------------------------*/
 .tf-section.auctions-page {
     padding-bottom: 0;
+    
 }
 .auctions-page .sc-heading {
     margin-bottom: -14px;

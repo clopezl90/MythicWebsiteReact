@@ -17,7 +17,7 @@ const menus = [
     },
     {
         id: 2,
-        name: 'Explore',
+        name: 'Shop',
         namesub: [
             {
                 id: 1,
@@ -49,7 +49,7 @@ const menus = [
     },
     {
         id: 3,
-        name: 'Community',
+        name: 'Cards',
         namesub: [
             {
                 id: 1,
@@ -65,7 +65,7 @@ const menus = [
     },
     {
         id: 4,
-        name: 'Page',
+        name: 'Gems',
         namesub: [
             {
                 id: 1,
@@ -94,17 +94,7 @@ const menus = [
             },
         ],
     },
-    {
-        id: 4,
-        name: 'Contact',
-        namesub: [
-            {
-                id: 1,
-                sub: 'Contact 01',
-                links: '/contact'
-            },
-        ],
-    },
+    
     
 ]
 

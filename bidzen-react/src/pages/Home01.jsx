@@ -44,7 +44,7 @@ const Home01 = () => {
 
   return <div className='home-1'>
     <Header />
-    <Navbar />
+    {/* <Navbar /> */}
     <Slider01 data={dataSlider} />
     <LiveAution data={dataLiveAution} />
     <LatestCollections data={dataCollections} />

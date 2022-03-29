@@ -1,8 +1,8 @@
 import React , { useRef , useState , useEffect } from 'react';
 import TopBar from './TopBar';
 import { Link , useLocation } from 'react-router-dom'
-import logo from '../../assets/images/logo/logo_dark.png'
-import logo2x from '../../assets/images/logo/logo_dark@2x.png'
+import logo from '../../assets/images/logo/logoMythic.png'
+import logo2x from '../../assets/images/logo/logoMythic.png'
 import logolight from '../../assets/images/logo/logo.png'
 import logolight2x from '../../assets/images/logo/logo@2x.png'
 import menus from "../../pages/menu";
