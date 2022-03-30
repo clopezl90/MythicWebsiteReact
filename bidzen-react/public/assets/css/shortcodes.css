@@ -2437,7 +2437,7 @@ blockquote .author::before {
     height: 100%;
     top: 0;
     left: 0;
-    background: url('../images/background/background01.png') ;
+        
     z-index: -1;
 }
 
