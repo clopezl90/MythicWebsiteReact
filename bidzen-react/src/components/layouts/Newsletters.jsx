@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assets/images/background/img-newletter.png'
+import img from '../../assets/images/background/ghost.png'
 
 export const Newsletters = () => {
   return (

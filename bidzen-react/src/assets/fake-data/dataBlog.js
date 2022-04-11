@@ -1,49 +1,49 @@
-import img1 from '../images/post/post-1.jpg'
-import img2 from '../images/post/post-2.jpg'
-import img3 from '../images/post/post-3.jpg'
-import img4 from '../images/post/post-4.jpg'
-import img5 from '../images/post/post-5.jpg'
-import img6 from '../images/post/post-6.jpg'
+import img1 from '../images/post/Anubus Card.png'
+import img2 from '../images/post/Blue Dragon Card.png'
+import img3 from '../images/post/Dragon Rider Card .png'
+import img4 from '../images/post/Merlin.png'
+import img5 from '../images/post/SETH .png'
+import img6 from '../images/post/Thor.png'
 
 const dataBlog = [
     {
         img: img1,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'Anubus',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'
     },
     {
         img: img2,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'Blue Dragon',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'
     },
     {
         img: img3,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'Dragon Rider',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'
     },
     {
         img: img4,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'Merlin',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'
     },
     {
         img: img5,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'SETH',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'
     },
     {
         img: img6,
-        title: 'An Overview Of Most Common UX Design Deliverables',
+        title: 'Thor',
         text : '',
         author: 'Senrew A. Sisson',
         time: '25 JAN 2022'

@@ -16,12 +16,12 @@ const Blog = () => {
                 <div className="col-md-12">
                     <div className="page-title-inner flex">
                         <div className="page-title-heading">
-                            <h2 className="heading">New & Blogs</h2>
+                            <h2 className="heading">My Cards</h2>
                         </div>
                         <div className="breadcrumbs">
                             <ul>
                                 <li><Link to="/">Home</Link></li>
-                                <li>News & Blogs</li>
+                                <li>My Cards</li>
                             </ul>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const Blog = () => {
                                         <h5><Link to="/blog-details">{item.title}</Link></h5>
                                     </div>
                                     <Link to="/blog-details"
-                                        className="sc-button btn-bordered-white style letter"><span>Read More</span></Link>
+                                        className="sc-button btn-bordered-white style letter"><span>See Details</span></Link>
                                 </div>
                             </article>
                         </div>

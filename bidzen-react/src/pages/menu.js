@@ -61,11 +61,11 @@ const menus = [
                 sub: 'My Cards',
                 links: '/blog'
             },
-            {
+            /* {
                 id: 2,
                 sub: 'Cards Store',
                 links: '/blog-details'
-            },
+            }, */
         ],
     },
     {
@@ -77,11 +77,11 @@ const menus = [
                 sub: 'My Gems',
                 links: '/authors'
             },
-            {
+            /* {
                 id: 2,
                 sub: 'Gems packages ',
                 links: '/connect-wallet'
-            },
+            }, */
             /* {
                 id: 3,
                 sub: 'Create Item',
