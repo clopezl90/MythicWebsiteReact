@@ -18,7 +18,7 @@ const Explore01 = () => {
                   <div className="col-md-12">
                       <div className="page-title-inner flex">
                           <div className="page-title-heading">
-                              <h2 className="heading">Explore</h2>
+                              <h2 className="heading">Explore the Mythic Cards!</h2>
                           </div>
                           <div className="breadcrumbs">
                               <ul>
