@@ -91,7 +91,7 @@ const Header = () => {
                                 </Link>
                             </div>
 
-                            <DarkMode />
+                            {/* <DarkMode /> */}
                         </div>
                     </div>
                 </div>

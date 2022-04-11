@@ -22,7 +22,7 @@ const LatestCollections = props => {
                 <div className="col-md-12">
                     <div className="swiper-container latest-coll style-2">
                         <div className="swiper-wrapper">
-                        <Swiper
+                        {/* <Swiper
                             modules={[Navigation, Pagination, Scrollbar, A11y]}
                             spaceBetween={30}
 
@@ -51,7 +51,9 @@ const LatestCollections = props => {
                                 </SwiperSlide>
                             ))
                         }
-                    </Swiper>
+                    </Swiper> */}
+
+                    
                         </div>
                     </div>
                 </div>
