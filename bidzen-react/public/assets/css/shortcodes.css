@@ -3048,23 +3048,41 @@ blockquote .author::before {
     text-align: center;
 }
 .item-details-page .item-media .media {
-    border-radius: 12px;
+    border-radius: 0px;
     overflow: hidden;
 }
 .item-details-page .item-media .media img {
     width: 100%;
 }
 .item-details-page .content-item {
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 20px;
     margin-top: -28px;
+    background-color: rgba(2, 2, 2, 0.788);
+}
+
+.item-details-page .content-item h2 {
+    font-size: 35px;
+    line-height: 75px;
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 20px #ffffcbbe;
 }
 .item-details-page .content-item h3 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 75px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 20px #ffffcbbe;
 }
+
+
 .item-details-page .content-item p {
-    font-size: 15px;
+    font-size: 20px;
 line-height: 28px;
+color: white;
 }
 .item-details-page .author-item {
     display: flex;
