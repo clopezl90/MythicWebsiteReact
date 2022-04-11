@@ -23,7 +23,7 @@ const Explore01 = () => {
                           <div className="breadcrumbs">
                               <ul>
                                   <li><Link to="/">Home</Link></li>
-                                  <li>Explore</li>
+                                  <li>Cards</li>
                               </ul>
                           </div>
                       </div>
@@ -31,7 +31,7 @@ const Explore01 = () => {
               </div>
           </div>
       </section>
-      <LatestCollection data={dataCollections} />
+      {/* <LatestCollection data={dataCollections} /> */}
       <PopularCollection data={dataPopularCollection} />
       <Newsletters />
       <Footer />

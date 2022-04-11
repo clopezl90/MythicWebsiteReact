@@ -48,10 +48,10 @@ const Home01 = () => {
     <Slider01 data={dataSlider} />
     <LiveAution data={dataLiveAution} />
     <LatestCollections data={dataCollections} />
-    <BestSeller data={dataBestSeller} />
+    {/* <BestSeller data={dataBestSeller} />
     <TrendingCollections data={dataTrendingCollections} />
     <Category data={dataCategory} />
-    <Newsletters />
+    <Newsletters /> */}
     <Footer />
   </div>;
 };
