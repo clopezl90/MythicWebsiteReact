@@ -5,13 +5,18 @@ const menus = [
         namesub: [
             {
                 id: 1,
-                sub: 'Home 01',
+                sub: 'Home',
                 links: '/'
             },
             {
                 id: 2,
-                sub: 'Home 02',
-                links: '/home-02'
+                sub: 'Login',
+                links: '/login'
+            },
+            {
+                id: 3,
+                sub: 'Register',
+                links: '/register'
             },
         ]
     },
@@ -29,7 +34,7 @@ const menus = [
                 sub: 'Gems',
                 links: '/explore-02'
             },
-            {
+            /* {
                 id: 3,
                 sub: 'Creator',
                 links: '/creator'
@@ -43,7 +48,7 @@ const menus = [
                 id: 5,
                 sub: 'Item Details',
                 links: '/item-details'
-            },
+            }, */
             
         ],
     },
@@ -77,7 +82,7 @@ const menus = [
                 sub: 'Gems packages ',
                 links: '/connect-wallet'
             },
-            {
+            /* {
                 id: 3,
                 sub: 'Create Item',
                 links: '/create-item'
@@ -91,7 +96,7 @@ const menus = [
                 id: 5,
                 sub: 'Register',
                 links: '/register'
-            },
+            }, */
         ],
     },
     

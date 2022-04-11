@@ -83,8 +83,8 @@ const LiveAutionItem = props => (
                             <span>You are good to go!</span>
                         </Countdown>
                     </div>
-                    <Link to="/connect-wallet"
-                        className="sc-button style letter"><span>Place Bid</span></Link>
+                    <Link to="/explore-01"
+                        className="sc-button style letter"><span>See Card</span></Link>
                     <label>{props.item.tags}</label>
                 </div>
                 <div className="product-content">

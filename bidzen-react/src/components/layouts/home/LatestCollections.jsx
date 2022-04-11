@@ -36,7 +36,7 @@ const LatestCollections = props => {
                                 <div className="col-xl-6 col-lg-12 col-md-12">
                                     <div className="content-item">
                                         <h3 >Mythic cards game</h3>
-                                        <p className="mg-bt-30">We see a better way to value the game cards. Besides, you can do transactions during the game eith your cards according to the statistics and the way you have played your cards. The more cards you acquire, the more possibilities to trade your cards using criptos. Also, your cards get more valued when you level across the game!</p>
+                                        <p className="mg-bt-30">We see a better way to value the game cards. Besides, you can do transactions during the game with your cards according to the statistics and the way you have played your cards. <br></br>The more cards you acquire, the more possibilities to trade your cards using criptos. Also, your cards get more valued when you level across the game!</p>
 
 
                                         <h2 >PLAY</h2>

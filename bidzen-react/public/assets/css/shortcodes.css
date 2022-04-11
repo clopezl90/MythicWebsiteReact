@@ -3037,7 +3037,7 @@ blockquote .author::before {
 ---------------------------*/
 .item-details-page .item-media {
     position: relative;
-    padding-top: 49px;
+    padding-top: 0px;
 }
 .item-details-page .item-media .countdown {
     position: absolute;
