@@ -16,8 +16,10 @@ const LiveAution = props => {
 
                                 <div className="inner">
                                     <div className="group">
-                                        <div className="icon"><i className="ripple"></i></div>
-                                        <h3>Mythic Cards Live Auctions</h3>
+                                        {/* <div className="icon"><i className="ripple"></i></div> */}
+                                        <h3>About Mythic Cards</h3>
+                                        <br />
+                                        
                                     </div>
                                     <p className="desc">Most popular gaming digital nft in Mythic Game </p>
                                 </div>
