@@ -1279,6 +1279,13 @@ a:focus {
     font-weight: 600;
 }
 /* socical icon */
+
+.hive-btn-img {
+    height: 46px;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
 .topbar-right .socical-icon li {
     margin-left: 18px;
 }

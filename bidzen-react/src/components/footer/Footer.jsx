@@ -124,8 +124,7 @@ const Footer = () => {
                                             srcSet={logo2x} />
                                     </Link>
                                 </div>
-                                <p className="sub-widget-logo">Sed ut perspiciatis unde omnis iste natus error sit voluptate
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quaes</p>
+                                <p className="sub-widget-logo">Mythic Cards is the most innovative cards game, with the latest trends to play and earn money.</p>
                                 <div className="widget-social">
                                     <ul>
                                         {
@@ -188,8 +187,8 @@ const Footer = () => {
             <div className="bottom">
                 <div className="container">
                     <div className="bottom-inner">
-                        Copyright © 2022 Mythic Portal | NFT Marketplace React Js Template. Designed by <a
-                            href="https://themeforest.net/user/themesflat/portfolio"> Themesflat</a>
+                        Copyright © 2022 Mythic Portal. {/* | NFT Marketplace React Js Template. Designed by <a
+                            href="https://themeforest.net/user/themesflat/portfolio"> Themesflat</a> */}
                     </div>
                 </div>
             </div>
