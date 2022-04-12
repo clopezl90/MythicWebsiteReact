@@ -848,6 +848,13 @@ h6 a {
     background-image: url('../images/background/aboutgame.png');
 }
 
+.gemsBackground{
+    padding: 30px 0 0px;
+    background-image: url('../images/background/aboutgems.png');
+    background-repeat:repeat-y;
+
+}
+
 .top-seller.tf-section {
     padding: 100px 0 0;
 }

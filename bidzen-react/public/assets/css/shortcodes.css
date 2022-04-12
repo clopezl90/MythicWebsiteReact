@@ -1971,6 +1971,7 @@ blockquote .author::before {
 .authors .hot-collections-page .popular-coll {
     margin-top: -36px;
     padding: 0;
+    
 }
 
 .popular-coll-2 {
@@ -3060,6 +3061,15 @@ blockquote .author::before {
 
     padding-bottom: 20px;
     margin-top: -28px;
+    background-color: rgba(2, 2, 2, 0.788);
+}
+
+.paragraphGems {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-bottom: 20px;
+    margin-top: 146px;
     background-color: rgba(2, 2, 2, 0.788);
 }
 
