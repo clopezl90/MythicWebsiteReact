@@ -9,7 +9,7 @@ const dataSlider = [
     },
     {
         title: "Discover and collect your favorite digital NTFs",
-        description: "Quis autem vel eum iure reprehenderit qui in ea voluptates esse quam nihil molestiae consequatur veillum",
+        description: "Mythic Portal is the most innovative cards game, with the latest trends to play and earn money",
         img: img1,
     },
     

@@ -22,29 +22,7 @@ import Modal1 from '../components/layouts/home/Modal1'
 
 const Home01 = () => {
 
-  const [characters, setCharacters] = useState([]);
-
-  const initialUrl = "https://rickandmortyapi.com/api/character";
-
-  const fetchCharacters = (url) => {
-
-    //here we bring the API object to the page 
-    fetch(url)
-      .then(response => response.json())
-      .then(data => setCharacters(data.results))
-      .catch(error => console.log(error))
-
-  };
-
-
-  useEffect(() => {
-    fetchCharacters(initialUrl);
-
-  }, [])
-
   
-
-
   return <div className='home-1'>
     <Header />
     {/* <Navbar /> */}
