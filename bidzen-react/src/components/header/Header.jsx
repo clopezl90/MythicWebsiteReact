@@ -7,6 +7,7 @@ import logolight from '../../assets/images/logo/logo.png'
 import logolight2x from '../../assets/images/logo/logo@2x.png'
 import menus from "../../pages/menu";
 import DarkMode from "./DarkMode"
+import Modal1 from '../../components/layouts/home/Modal1'
 
 import icon from '../../assets/images/icon/connect-wallet.svg'
 
@@ -40,6 +41,10 @@ const Header = () => {
     const handleOnClick = index => {
         setActiveIndex(index); 
     };
+
+    const [openModal, setOpenModal] = useState(false)
+
+    
 
     return <div>
       <TopBar />
@@ -84,8 +89,9 @@ const Header = () => {
                                     }
                                 </ul>
                             </nav>
-                            <div className="button-connect-wallet">
-                                <Link to="/connect-wallet" className="sc-button wallet  style-2">
+                            <div className="button-connect-wallet" onClick={() =>{setOpenModal(true);}}>
+                                {/* <Link to="/connect-wallet" className="sc-button wallet  style-2"> */}
+                                <Link to="" className="sc-button wallet  style-2">
                                     <img src={icon} alt="icon" />
                                     <span>Connect Wallet</span>
                                 </Link>
@@ -97,6 +103,10 @@ const Header = () => {
                 </div>
             </div>
         </header>
+
+        {openModal && <Modal1 closeModal={setOpenModal} />}
+        
+        
   </div>;
 };
 

@@ -14,7 +14,8 @@ import Category from '../components/layouts/home/Category';
 import dataCategory from '../assets/fake-data/dataCategory'
 import Footer from '../components/footer/Footer';
 import { Newsletters } from '../components/layouts/home/Newsletters';
-import { Navbar } from 'react-bootstrap';
+import {Navbar } from 'react-bootstrap';
+import Modal1 from '../components/layouts/home/Modal1'
 
 
 
@@ -41,6 +42,8 @@ const Home01 = () => {
 
   }, [])
 
+  
+
 
   return <div className='home-1'>
     <Header />
@@ -53,6 +56,7 @@ const Home01 = () => {
     <Category data={dataCategory} />
     <Newsletters /> */}
     <Footer />
+    
   </div>;
 };
 

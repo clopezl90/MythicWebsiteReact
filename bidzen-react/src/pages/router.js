@@ -13,6 +13,7 @@ import CreateItem from './CreateItem'
 import Login from './Login'
 import Register from './Register'
 import Contact from './Contact'
+import Modal1 from '../components/layouts/home/Modal1'
 
 const routes = [
     { path: '/', component: <Home01 />},
@@ -29,7 +30,9 @@ const routes = [
     { path: '/create-item', component: <CreateItem />},
     { path: '/login', component: <Login />},
     { path: '/register', component: <Register />},
-    { path: '/contact', component: <Contact />}
+    { path: '/contact', component: <Contact />},
+    { path: '/modal', component: <Modal1 />}
+    
 ]
 
 export default routes;

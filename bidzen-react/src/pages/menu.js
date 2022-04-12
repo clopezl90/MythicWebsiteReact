@@ -11,7 +11,7 @@ const menus = [
             {
                 id: 2,
                 sub: 'Login',
-                links: '/login'
+                links: '/modal'
             },
             {
                 id: 3,
