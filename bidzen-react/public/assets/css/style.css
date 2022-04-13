@@ -1147,7 +1147,7 @@ a:focus {
     min-width: auto;
     font-size: 14px;
     color: var(--color-1) !important;
-    background: rgba(255, 255, 255, 0.1);
+    background: #6345ED;
     box-shadow: 4px 4px 30px rgba(99, 69, 237, 0.1);
     border-radius: 5px;
     padding: 9px 24px 9px 16px;
@@ -1175,7 +1175,7 @@ a:focus {
 
 .dropdown .dropdown-menu {
     min-width: 100%;
-    background: var(--color-4);
+    background: #14161b;
     border-radius: 10px;
     padding: 10px;
 }

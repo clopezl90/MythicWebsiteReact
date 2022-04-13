@@ -8,7 +8,7 @@ const TopBar = () => {
                 <div className="container">
                     <div className="topbar-inner flex">
                         <div className="menu-options flex">
-                            <div className="ethereum">
+                            {/* <div className="ethereum">
                                 <div id="ethereum" className="dropdown">
                                     <Dropdown>
                                         <Dropdown.Toggle className="btn-selector nolink" id="dropdown-basic">
@@ -29,7 +29,7 @@ const TopBar = () => {
                                         </Dropdown.Menu>
                                     </Dropdown>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="english">
                                 <div id="english" className="dropdown">
                                     <Dropdown>
