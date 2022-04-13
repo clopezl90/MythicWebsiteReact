@@ -298,7 +298,7 @@
 
 .sc-card-article .content {
     padding      : 26px 35px 33px 35px;
-    background   : var(--color-4);
+    background   : rgba(43, 14, 170, 0.897);
     box-shadow   : 4px 4px 60px rgba(99, 69, 237, 0.1);
     border-radius: 0px 0px 7px 7px;
 }
